@@ -1,0 +1,16 @@
+[user]
+    name = Adrian Zmenda
+    email = adiq@adiq.eu
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    ui = auto
+
+[push]
+    default = matching
+
+[core]
+    editor = nano
+    pager = less -R
