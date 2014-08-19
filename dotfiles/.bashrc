@@ -5,6 +5,10 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Make sure only .bashrc is responsible for everything
+rm ~/.profile
+rm ~/.bash_profile
+
 ## enable color support of ls and also add handy aliases
 
 if [ -x /usr/bin/dircolors ]; then
